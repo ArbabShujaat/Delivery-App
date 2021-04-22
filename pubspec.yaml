@@ -1,0 +1,67 @@
+name: flutter_restaurant
+description: A new Flutter restaurant application.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  dio: ^3.0.10
+  firebase_analytics: ^6.3.0
+  firebase_core: ^0.5.0+1
+  firebase_messaging: ^7.0.3
+  flutter_html: ^1.2.0
+  flutter_local_notifications: ^4.0.1
+  flutter_svg: 0.19.0
+  flutter_xlider: ^3.4.0
+  geocoder: ^0.2.1
+  geolocator: ^6.1.7
+  get_it: ^5.0.3
+  google_maps_flutter: ^0.5.31
+  image_picker: ^0.6.7+21
+  path_provider: ^1.6.24
+  picture_in_picture: ^0.0.4
+  pin_code_fields: ^5.1.0
+  provider: ^4.3.2+3
+  shared_preferences: ^0.5.12+4
+  shimmer: ^1.1.2
+  slider_button: ^0.6.0
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: 0.8.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/
+    - assets/image/
+    - assets/language/
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700

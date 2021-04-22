@@ -1,0 +1,416 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.u6amtech.flutter_restaurant"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:8:5-66
+17-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:9:5-79
+18-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:10:5-81
+19-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:10:22-78
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:11:5-85
+20-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:11:22-82
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+21-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+22-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+23-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+24-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+25-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+26-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+27    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+27-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+34
+35    <application
+35-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:13:5-60:19
+36        android:name="com.u6amtech.flutter_restaurant.Application"
+36-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:14:9-36
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.3.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d0dcb0670f8d820b03f59c0c53df0866/core-1.3.0/AndroidManifest.xml:24:18-86
+38        android:icon="@mipmap/launcher_icon"
+38-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:18:9-45
+39        android:label="Owl"
+39-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:15:9-28
+40        android:requestLegacyExternalStorage="true"
+40-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:16:9-52
+41        android:usesCleartextTraffic="true" >
+41-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:17:9-44
+42        <meta-data
+42-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:19:9-20:70
+43            android:name="com.google.android.geo.API_KEY"
+43-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:19:20-65
+44            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ" />
+44-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:20:13-68
+45
+46        <activity
+46-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:22:9-54:20
+47            android:name="com.u6amtech.flutter_restaurant.MainActivity"
+47-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:23:13-41
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:26:13-163
+49            android:hardwareAccelerated="true"
+49-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:27:13-47
+50            android:launchMode="singleTop"
+50-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:24:13-43
+51            android:theme="@style/LaunchTheme"
+51-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:25:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:28:13-55
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:33:13-36:17
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:34:15-70
+62                android:resource="@style/NormalTheme" />
+62-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:35:15-52
+63            <!--
+64                 Displays an Android View that continues showing the launch screen
+65                 Drawable until Flutter paints its first frame, then this splash
+66                 screen fades out. A splash screen is useful to avoid any visual
+67                 gap between the end of Android's launch screen and the painting of
+68                 Flutter's first frame.
+69            -->
+70            <meta-data
+70-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:42:13-45:17
+71                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+71-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:43:15-79
+72                android:resource="@drawable/launch_background" />
+72-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:44:15-61
+73
+74            <intent-filter>
+74-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:46:13-49:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:47:17-68
+75-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:47:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:48:17-76
+77-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:48:27-74
+78            </intent-filter>
+79            <intent-filter>
+79-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:50:13-53:29
+80                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+80-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:51:17-69
+80-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:51:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:52:17-76
+82-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:52:27-73
+83            </intent-filter>
+84        </activity>
+85        <!--
+86             Don't delete the meta-data below.
+87             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+88        -->
+89        <meta-data
+89-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:57:9-59:33
+90            android:name="flutterEmbedding"
+90-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:58:13-44
+91            android:value="2" />
+91-->/Users/arbabshujaatahmed/Desktop/app/android/app/src/main/AndroidManifest.xml:59:13-30
+92
+93        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+93-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+93-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:18-101
+94            <intent-filter>
+94-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+95                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+95-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+95-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+96            </intent-filter>
+97        </service>
+98        <service
+98-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:9-17:19
+99            android:name="com.google.firebase.components.ComponentDiscoveryService"
+99-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:18-89
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+102            <meta-data
+102-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-16:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+103-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:17-127
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:17-82
+105            <meta-data
+105-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+106-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-127
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_analytics] /Users/arbabshujaatahmed/Desktop/app/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+108            <meta-data
+108-->[:firebase_core] /Users/arbabshujaatahmed/Desktop/app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+109-->[:firebase_core] /Users/arbabshujaatahmed/Desktop/app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_core] /Users/arbabshujaatahmed/Desktop/app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+112                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+112-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+115-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+117            <meta-data
+117-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7db915fd96c21f64f0bf3910e2270d1f/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+118                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+118-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7db915fd96c21f64f0bf3910e2270d1f/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7db915fd96c21f64f0bf3910e2270d1f/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/ea01993ac4cc0d1b75cffbd1481655c0/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+121                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+121-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/ea01993ac4cc0d1b75cffbd1481655c0/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/ea01993ac4cc0d1b75cffbd1481655c0/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-installations:16.3.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/e621b86a65d937145bd19c8efcb92faf/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+124                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+124-->[com.google.firebase:firebase-installations:16.3.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/e621b86a65d937145bd19c8efcb92faf/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-installations:16.3.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/e621b86a65d937145bd19c8efcb92faf/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+126            <!--
+127                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+128                clients to use it as well, by defining this registrar in their own core/common library.
+129            -->
+130            <meta-data
+130-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+131                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+131-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+133        </service>
+134        <!--
+135             FirebaseMessagingService performs security checks at runtime,
+136             but set to not exported to explicitly avoid allowing another app to call it.
+137        -->
+138        <service
+138-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+139            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+139-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+141            android:exported="false" >
+141-->[com.google.firebase:firebase-messaging:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/979440f91fc14b6cdb0eaf67418f5514/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+142            <intent-filter android:priority="-500" >
+142-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:29
+143                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+143-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:17-78
+143-->[:firebase_messaging] /Users/arbabshujaatahmed/Desktop/app/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:10:25-75
+144            </intent-filter>
+145        </service>
+146
+147        <provider
+147-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+148            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+148-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+149            android:authorities="com.u6amtech.flutter_restaurant.flutter.image_provider"
+149-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+150            android:exported="false"
+150-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+151            android:grantUriPermissions="true" >
+151-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+152            <meta-data
+152-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+153                android:name="android.support.FILE_PROVIDER_PATHS"
+153-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+154                android:resource="@xml/flutter_image_picker_file_paths" />
+154-->[:image_picker] /Users/arbabshujaatahmed/Desktop/app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+155        </provider>
+156
+157        <activity
+157-->[:url_launcher] /Users/arbabshujaatahmed/Desktop/app/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+158            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+158-->[:url_launcher] /Users/arbabshujaatahmed/Desktop/app/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+159            android:exported="false"
+159-->[:url_launcher] /Users/arbabshujaatahmed/Desktop/app/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+160            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+160-->[:url_launcher] /Users/arbabshujaatahmed/Desktop/app/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+161
+162        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+162-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:9-106
+162-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:19-103
+163        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+163-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-20:20
+163-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:19-107
+164            <intent-filter>
+164-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-19:29
+165                <action android:name="android.intent.action.BOOT_COMPLETED" />
+165-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:17-79
+165-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:25-76
+166                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+166-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:17-84
+166-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:25-81
+167                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+167-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-82
+167-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-79
+168                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+168-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:17-82
+168-->[:flutter_local_notifications] /Users/arbabshujaatahmed/Desktop/app/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:25-79
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+172            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+172-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+173            android:exported="true"
+173-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+174            android:permission="com.google.android.c2dm.permission.SEND" >
+174-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+175            <intent-filter>
+175-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+176                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+176-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:42:17-81
+176-->[com.google.firebase:firebase-iid:21.0.1] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/d8956d753a0d07de44f7dd3af634efb3/firebase-iid-21.0.1/AndroidManifest.xml:42:25-78
+177            </intent-filter>
+178        </receiver>
+179        <receiver
+179-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+180            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+180-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+181            android:enabled="true"
+181-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+182            android:exported="false" >
+182-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+183        </receiver>
+184
+185        <service
+185-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+186            android:name="com.google.android.gms.measurement.AppMeasurementService"
+186-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+188            android:exported="false" />
+188-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+189        <service
+189-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+190            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+190-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+191            android:enabled="true"
+191-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+192            android:exported="false"
+192-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/88a6afcfe58d57fd461539453317fc03/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+194
+195        <provider
+195-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+196            android:name="com.google.firebase.provider.FirebaseInitProvider"
+196-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+197            android:authorities="com.u6amtech.flutter_restaurant.firebaseinitprovider"
+197-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+200            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+200-->[com.google.firebase:firebase-common:19.5.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/7c2d4d631f765b4c2351284dc10a2792/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+201        <uses-library
+201-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+202            android:name="org.apache.http.legacy"
+202-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+203            android:required="false" />
+203-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/6c56d343dadbd5de2e9c955fa8e4e1c1/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+204
+205        <activity
+205-->[com.google.android.gms:play-services-base:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/30a8c856d8fe9a20d62f614b9db1a8ff/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+206-->[com.google.android.gms:play-services-base:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/30a8c856d8fe9a20d62f614b9db1a8ff/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-base:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/30a8c856d8fe9a20d62f614b9db1a8ff/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-base:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/30a8c856d8fe9a20d62f614b9db1a8ff/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+209
+210        <meta-data
+210-->[com.google.android.gms:play-services-basement:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/92a993dd22d0920ffadffa427bdf0cef/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+211            android:name="com.google.android.gms.version"
+211-->[com.google.android.gms:play-services-basement:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/92a993dd22d0920ffadffa427bdf0cef/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+212            android:value="@integer/google_play_services_version" />
+212-->[com.google.android.gms:play-services-basement:17.0.0] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/92a993dd22d0920ffadffa427bdf0cef/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+213
+214        <service
+214-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+215            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+215-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+216            android:exported="false" >
+216-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+217            <meta-data
+217-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+218                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+218-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+219                android:value="cct" />
+219-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/4bbc42f43fbdef278435b2e3d64eb74e/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+220        </service>
+221        <service
+221-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+222            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+222-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+223            android:exported="false"
+223-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+224            android:permission="android.permission.BIND_JOB_SERVICE" >
+224-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+225        </service>
+226
+227        <receiver
+227-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+228            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+228-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+229            android:exported="false" />
+229-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arbabshujaatahmed/.gradle/caches/transforms-2/files-2.1/f02aef1b701897915e89a623ac860065/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+230    </application>
+231
+232</manifest>
